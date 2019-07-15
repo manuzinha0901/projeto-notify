@@ -17,7 +17,6 @@ header{
 div{
     width: 40%;
     height: 100%;
-    background-color: red;
 }
 
 .div-mao{
@@ -28,4 +27,57 @@ div{
 
 .div-mao img{
     width: 330px;
+}
+
+
+.div-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.div-textos h1{
+    font-size: 30pt;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+.div-textos h1 span{
+    color: #5fcd70;
+}
+
+.div-textos p{
+    margin: 0;
+    color: white;  
+}
+
+.div-textos section{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.div-textos section a{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+section a img{
+    width: 20px;
+}
+
+.div-textos section a:hover{
+    background-color: #5fcd70;
 }
