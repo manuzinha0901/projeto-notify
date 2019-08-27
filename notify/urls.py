@@ -20,5 +20,6 @@ from landing import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.retornar_index),
+    path("sobre", views.sobre),    
 
 ]

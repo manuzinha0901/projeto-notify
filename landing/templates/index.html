@@ -1,16 +1,8 @@
+{% extends 'shared/layout.html' %}
 {% load staticfiles %}
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Notify</title>
-    <link rel="stylesheet" href=" {% static 'style.css' %}">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-</head>
-<body>
+
+{% block content %}
     <header>
         <div class="div-textos">
             <h1>Notify<span>.</span></h1>
@@ -33,5 +25,5 @@
             <img src="{% static 'img/hand.png' %}" alt="{% static 'mão segurando celular' %}">
         </div>
     </header>
-</body>
-</html>
+    {% endblock %}
+    
